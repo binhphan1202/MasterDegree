@@ -1,0 +1,19 @@
+Bước 1: Cài đặt công cụ (Chỉ làm 1 lần)
+Mọi người cần cài 2 thứ sau trên máy tính cá nhân:
+
+MongoDB Compass: Phần mềm để xem dữ liệu như bảng Excel. https://www.mongodb.com/try/download/compass.
+
+Thư viện Python (PyMongo): Để code. Mở Terminal/CMD và gõ lệnh: pip install "pymongo[srv]" pandas
+
+
+Bước 2: Hiểu về "Chìa khóa" kết nối (URI)
+Địa chỉ để vào Database của nhóm có cấu trúc như sau:
+mongodb+srv://username:password@bigdatadb.xlinxyc.mongodb.net/amazon_reviews_db?retryWrites=true&w=majority
+
+Username: bigdatateam.
+
+Password: BigData2026.
+
+Database: amazon_reviews_db.
+
+*** Nhớ đặt tên ở ô Name
